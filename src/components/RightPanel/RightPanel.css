@@ -1,0 +1,11 @@
+.right-panel{
+	background-color: rgb(34, 34, 34);
+	height: 100%;
+	margin: 0;
+	display: flex;
+    justify-content: center;
+	color:rgb(204, 204, 204);
+	font-family: "Roboto",sans-serif;
+	font-size: 18px;
+	padding: 20px 80px 20px 80px;
+}

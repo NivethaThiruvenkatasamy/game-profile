@@ -1,0 +1,153 @@
+.left-panel{
+	background-color: #111;
+	padding: 20px;
+    height: 100%;
+}
+.main-title{
+	color: #44d62c;
+    font-family: 'RazerF5';
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    max-height: 24px;
+    margin-bottom: 20px;
+}
+img{
+    height: 20px !important;
+    width: 20px !important;
+    background-size: 20px;
+    background-position: center;
+}
+.profile-name{
+	font-family: 'Roboto',sans-serif;
+    margin-left: 10px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.profile-item{
+    display: flex;
+    color: #ccc;
+    padding: 5px 10px;
+    width:100%;
+}
+.profile-item :hover, .profile-item-active :hover{
+    cursor: pointer;
+}
+.profile-item-active{
+    color: #44d62c;
+    display: flex;
+    padding: 5px 10px;
+    padding-right: 2px;
+}
+.profile-group{
+    border: 1px solid #5d5d5d;
+    width: 200px;
+    max-height: 220px;
+    height: 220px;
+    flex-direction: column;
+    display: flex;
+
+}
+.button-group{
+    height: 29px;
+    background-color: #222;
+    border-top: 1px solid #707070;
+    width: 200px;
+    margin-top: auto;
+    align-self: start;
+
+}
+.button-left-group{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.button-right-group{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.disabled-icon{
+   opacity: 0.5;
+   pointer-events: none !important;
+}
+.button-left-group div,.button-right-group div{
+	height: 28px;
+    width: 28px;
+    max-width: 28px;
+	will-change: background-color;
+	transition: background-color .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-left-group > div,.button-right-group > div{
+	will-change: opacity;
+	transition: opacity 0.3s linear;
+}
+
+.button-left-group > div:hover, .button-right-group > div:hover  {
+	background-color: rgba(255,255,255,0.1);
+	cursor: pointer;
+}
+.input-field{
+    z-index: 2;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #111 !important;
+    padding: 3px 10px 5px 5px;
+    line-height: 20px;
+    color: #ccc;
+    outline:none;
+    border: 0.5px solid #44d62c;
+}
+.profile-list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+.delete-confirmation-dialog{
+     flex-direction: column;
+     align-items: center;
+     background-color: #111;
+     border: 1px solid #c8323c;
+     border-radius: 3px;
+     box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+     display: flex !important;
+     z-index: 2;
+     font-family : "Roboto",sans-serif;
+ }
+ .delete-confirmation-dialog:focus{
+    outline:  none;
+ }
+ .title {
+     font-size: 14px;
+     font-weight: 500;
+     text-transform: uppercase;
+     color: #c8323c;
+     text-align: center;
+     line-height: 17px;
+     font-family : "Roboto",sans-serif;
+ }
+ .body-text{
+     color : rgb(204, 204, 204);
+     margin: 10px;
+     font-family : "Roboto",sans-serif;
+ }
+ .delete-btn{
+     height: 27px;
+     width: auto;
+     font-size: 12px;
+     color: #ffffff;
+     text-align: center;
+     line-height: 17px;
+     background-color: #c8323c;
+     padding: 4px 0;
+     min-width: 90px;
+     border: 1px solid rgba(0,0,0,0.3);
+ }
+
+
